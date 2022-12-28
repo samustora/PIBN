@@ -46,6 +46,6 @@ freq_list = []
 for values in av_dict.values():
     freq_list.append(values)
 
-plt.title('Relative abundance of residues in the Human Proteome')
+plt.title('Relative abundance of residues in the Helicobacter Pylori Proteome')
 plt.bar(res_list, freq_list)
 plt.show()

@@ -7,7 +7,7 @@ The project aims to study ***cagA***, an _Helicobacter pylori_ virulence factor,
 We have focused our attention onto:
 1. Analysis of _H. pylori_'s proteome;
 2. Focus on _cagA_'s structure;
-3. Interaction between cagA and ***SHP2*** and its pro-oncogenic action.
+3. Interaction between _cagA_ and ***SHP2*** and its pro-oncogenic action.
 
 ## Results
 We have listed here the files regarding the results of our analysis:

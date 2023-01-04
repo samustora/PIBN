@@ -12,8 +12,8 @@ We have focused our attention onto:
 ## Results
 We have listed here the files regarding the results of our analysis:
 * _CagA.cxs_ file ...;
-* _Figure_1.png_ file ...;
-* _UP000000429_85962.fasta_ file ...;
+* _Figure_1.png_ file represents the relative abundances of the 703729 amino acids in _H. pylori_;
+* _UP000000429_85962.fasta_ is a _FASTA_ file representing a reference proteome of H. pylori (strain ATCC 700392 / 26695);
 * _helicobacter_pylori.py_ file ...;
 * _sh2_EPIYA_D.cxs_ file ...;
 * _tree_SHP2.pdf_ file ...;

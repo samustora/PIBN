@@ -18,6 +18,7 @@ We have listed here the files regarding the results of our analysis:
   * Analyzes sequence frequency;
   * Defines the residues;
   * Gets the residues relative abundances.
+* _`map05120.png`_ file shows a KEGG pathway representing interactions between genes as _cagPAI_ and _cagA_;
 * _`sh2_EPIYA_D.cxs`_ chimera file representing _SHP2_ protein;
 * _`tree_SHP2.pdf`_ file representing a phylogenetic tree based on the _SHP2_ protein order to see its evolutionary pattern across different animals.
 

@@ -11,12 +11,15 @@ We have focused our attention onto:
 
 ## Results
 We have listed here the files regarding the results of our analysis:
-* _`CagA.cxs`_ file ...;
+* _`CagA.cxs`_ file chimera file representing _cagA_ protein;
 * _`Figure_1.png`_ file represents the relative abundances of the 703729 amino acids in _H. pylori_;
 * _`UP000000429_85962.fasta`_ is a _FASTA_ file representing a reference proteome of H. pylori (strain ATCC 700392 / 26695);
-* _`helicobacter_pylori.py`_ file ...;
-* _`sh2_EPIYA_D.cxs`_ file ...;
-* _`tree_SHP2.pdf`_ file ...;
+* _`helicobacter_pylori.py`_ is a _.py_ file that:
+  * Analyzes sequence frequency;
+  * Defines the residues;
+  * Gets the residues relative abundances.
+* _`sh2_EPIYA_D.cxs`_ chimera file representing _SHP2_ protein;
+* _`tree_SHP2.pdf`_ file representing a phylogenetic tree based on the _SHP2_ protein order to see its evolutionary pattern across different animals.
 
 ## Authors
 ***Corona** Gaia, **Storari** Samuele, **Verdesca** Laura Claudia.*

@@ -15,8 +15,8 @@ We have listed here the files regarding the results of our analysis:
 * _[UP000000429_85962.fasta](https://github.com/samustora/PIBN/blob/main/UP000000429_85962.fasta)_ is a _FASTA_ file representing a reference proteome of _H. pylori_ (strain ATCC 700392 / 26695);
 * _[cagA_P55980.png](https://github.com/samustora/PIBN/blob/main/cagA_P55980.png)_ file, obtained from [IntAct](https://www.ebi.ac.uk/intact/search?query=cagA) website, shows some interactions between _cagA_ and other bacterial or human genes, such as with _MARK2_;
 * _[cagA_P80200.png](https://github.com/samustora/PIBN/blob/main/cagA_P80200.png)_ file, obtained from [IntAct](https://www.ebi.ac.uk/intact/search?query=cagA) website, shows the interaction between _cagA_ and _PTPN11_;
-* _[cagA_hp.png](https://github.com/samustora/PIBN/blob/main/cagA_hp.png)_ file shows ;
-* _[caga_hs.png](https://github.com/samustora/PIBN/blob/main/caga_hs.png)_ file shows ...;
+* _[cagA_hp.png](https://github.com/samustora/PIBN/blob/main/cagA_hp.png)_ file, obtained from String website, shows interactions between _cagA_ and other genes in _H. pylori_;
+* _[caga_hs.png](https://github.com/samustora/PIBN/blob/main/caga_hs.png)_ file, obtained from String website, shows interactions between _cagA_ (called "_S100A8_") and other genes in _H. sapiens_;
 * _[colored_relative_abundance.png](https://github.com/samustora/PIBN/blob/main/colored_relative_abundance.png)_ file represents the relative abundances of the 703729 amino acids in _H. pylori_:
   * ⬜️ Gray color symbolizes non-polar amino acids;
   * 🟨 Yellow color symbolizes aromatic amino acids;

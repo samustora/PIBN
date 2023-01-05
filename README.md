@@ -13,10 +13,10 @@ We have focused our attention onto:
 We have listed here the files regarding the results of our analysis:
 * _[CagA.cxs](https://github.com/samustora/PIBN/blob/main/CagA.cxs)_ file chimera file representing _cagA_ protein;
 * _[UP000000429_85962.fasta](https://github.com/samustora/PIBN/blob/main/UP000000429_85962.fasta)_ is a _FASTA_ file representing a reference proteome of H. pylori (strain ATCC 700392 / 26695);
-* _[cagA_P55980.png](https://github.com/samustora/PIBN/blob/main/cagA_P55980.png)_
-* _[cagA_P80200.png](https://github.com/samustora/PIBN/blob/main/cagA_P80200.png)_
-* _[cagA_hp.png](https://github.com/samustora/PIBN/blob/main/cagA_hp.png)_
-* _[caga_hs.png](https://github.com/samustora/PIBN/blob/main/caga_hs.png)_
+* _[cagA_P55980.png](https://github.com/samustora/PIBN/blob/main/cagA_P55980.png)_ file shows ...;
+* _[cagA_P80200.png](https://github.com/samustora/PIBN/blob/main/cagA_P80200.png)_ file shows ...;
+* _[cagA_hp.png](https://github.com/samustora/PIBN/blob/main/cagA_hp.png)_ file shows ...;
+* _[caga_hs.png](https://github.com/samustora/PIBN/blob/main/caga_hs.png)_ file shows ...;
 * _[colored_relative_abundance.png](https://github.com/samustora/PIBN/blob/main/colored_relative_abundance.png)_ file represents the relative abundances of the 703729 amino acids in _H. pylori_:
   * Gray color symbolizes non-polar amino acids;
   * Yellow color symbolizes aromatic amino acids;

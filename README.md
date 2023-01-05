@@ -27,7 +27,7 @@ We have listed here the files regarding the results of our analysis:
   * Defines the residues;
   * Gets the residues relative abundances.
 * _[map05120.png](https://github.com/samustora/PIBN/blob/main/map05120.png)_ file shows a KEGG pathway representing interactions between genes as _cagPAI_ and _cagA_;
-* _[multi_SHP2.fasta.txt](https://github.com/samustora/PIBN/blob/main/multi_SHP2.fasta.txt)_ file
+* _[multi_SHP2.fasta.txt](https://github.com/samustora/PIBN/blob/main/multi_SHP2.fasta.txt)_ file was uploaded onto Mega to obtain the [phylogenetic tree](https://github.com/samustora/PIBN/blob/main/tree_SHP2.pdf) based on Neighbour Joining;
 * _[sh2_EPIYA_D.cxs](https://github.com/samustora/PIBN/blob/main/sh2_EPIYA_D.cxs)_ chimera file representing _SHP2_ protein;
 * _[tree_SHP2.pdf](https://github.com/samustora/PIBN/blob/main/tree_SHP2.pdf)_ file representing a phylogenetic tree based on the _SHP2_ protein order to see its evolutionary pattern across different animals. <br></br>
 

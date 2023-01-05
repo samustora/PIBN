@@ -32,6 +32,12 @@ We have listed here the files regarding the results of our analysis:
 * _[tree_SHP2.pdf](https://github.com/samustora/PIBN/blob/main/tree_SHP2.pdf)_ file representing a phylogenetic tree based on the _SHP2_ protein order to see its evolutionary pattern across different animals.
 
 ## Linux
+We wanted to show, using Linux, how many interactions there are between _cagA_ and _SHP2_ (also known as _PTPN11_). </br>
+On UniProt, the proteins we are dealing with have the following identification codes:
+* _CagA_ in H. Pylori is identified through the UniProt ID P80200;
+* _PTPN11_ in H. Sapiens is identified through the UniProt ID Q06124;
+
+The interaction between cagA and PTPN11 can be seen by dealing with the IntAct database that contains the interactome, through bash commands.
 ```
 wget ftp://ftp.ebi.ac.uk/pub/databases/intact/current/psimitab/intact.zip 
 unzip intact.zip
@@ -40,7 +46,7 @@ cat intact.txt | grep 'uniprotkb:P80200'|grep 'uniprotkb:Q06124'| wc -l
 ```
 ...
 ```
-cat intact.txt | grep 'uniprotkb:cagA' | grep 'uniprotkb:MARK2' | wc -l # same as we weite P55980
+cat intact.txt | grep 'uniprotkb:cagA' | grep 'uniprotkb:MARK2' | wc -l # same as we write P55980
 > 4
 ```
 

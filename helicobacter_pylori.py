@@ -46,6 +46,24 @@ freq_list = []
 for values in av_dict.values():
     freq_list.append(values)
 
+non_polar = ['G', 'A', 'V', 'P', 'L', 'I', 'M'] # gray
+aromatic = ['F', 'W', 'Y'] # yellow
+polar = ['S', 'T', 'C', 'N', 'Q', 'H'] # blue
+charged = ['D', 'E', 'K', 'R'] # orange
+
+colors = []
+for el in res_list:
+    if el in non_polar:
+        colors.append('grey')
+    elif el in aromatic:
+        colors.append('yellow')
+    elif el in polar:
+        colors.append('blue')
+    elif el in charged:
+        colors.append('orange')
+    else:
+        colors.append('beige')
+
 plt.title('Relative abundance of residues in the Helicobacter Pylori Proteome')
-plt.bar(res_list, freq_list)
+plt.bar(res_list, freq_list, color=colors)
 plt.show()

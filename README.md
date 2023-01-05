@@ -12,16 +12,16 @@ We have focused our attention onto:
 ## Results
 We have listed here the files regarding the results of our analysis:
 * _[CagA.cxs](https://github.com/samustora/PIBN/blob/main/CagA.cxs)_ file chimera file representing _cagA_ protein;
-* _[UP000000429_85962.fasta](https://github.com/samustora/PIBN/blob/main/UP000000429_85962.fasta)_ is a _FASTA_ file representing a reference proteome of H. pylori (strain ATCC 700392 / 26695);
+* _[UP000000429_85962.fasta](https://github.com/samustora/PIBN/blob/main/UP000000429_85962.fasta)_ is a _FASTA_ file representing a reference proteome of _H. pylori_ (strain ATCC 700392 / 26695);
 * _[cagA_P55980.png](https://github.com/samustora/PIBN/blob/main/cagA_P55980.png)_ file, obtained from [IntAct](https://www.ebi.ac.uk/intact/search?query=cagA) website, shows some interactions between _cagA_ and other bacterial or human genes, such as with _MARK2_;
 * _[cagA_P80200.png](https://github.com/samustora/PIBN/blob/main/cagA_P80200.png)_ file, obtained from [IntAct](https://www.ebi.ac.uk/intact/search?query=cagA) website, shows the interaction between _cagA_ and _PTPN11_;
-* _[cagA_hp.png](https://github.com/samustora/PIBN/blob/main/cagA_hp.png)_ file shows ...;
+* _[cagA_hp.png](https://github.com/samustora/PIBN/blob/main/cagA_hp.png)_ file shows ;
 * _[caga_hs.png](https://github.com/samustora/PIBN/blob/main/caga_hs.png)_ file shows ...;
 * _[colored_relative_abundance.png](https://github.com/samustora/PIBN/blob/main/colored_relative_abundance.png)_ file represents the relative abundances of the 703729 amino acids in _H. pylori_:
-  * Gray color symbolizes non-polar amino acids;
-  * Yellow color symbolizes aromatic amino acids;
-  * Blue color symbolizes polar amino acids;
-  * Orange color represents charged amoni acids.
+  * ⬜️ Gray color symbolizes non-polar amino acids;
+  * 🟨 Yellow color symbolizes aromatic amino acids;
+  * 🟦 Blue color symbolizes polar amino acids;
+  * 🟧 Orange color represents charged amoni acids.
 * _[helicobacter_pylori.py](https://github.com/samustora/PIBN/blob/main/helicobacter_pylori.py)_ is a _.py_ file that:
   * Analyzes sequence frequency;
   * Defines the residues;
@@ -38,10 +38,10 @@ On UniProt, the proteins we are dealing with have the following identification c
 * _PTPN11_ in _H. Sapiens_ is identified through the UniProt ID Q06124. <br></br>
 
 The interaction between _cagA_ and _PTPN11_ can be seen by dealing with the IntAct database that contains the interactome, through bash commands:
-```
-wget ftp://ftp.ebi.ac.uk/pub/databases/intact/current/psimitab/intact.zip 
-unzip intact.zip
-cat intact.txt | grep 'uniprotkb:P80200'|grep 'uniprotkb:Q06124'| wc -l
+```diff
+- wget ftp://ftp.ebi.ac.uk/pub/databases/intact/current/psimitab/intact.zip 
+- unzip intact.zip
+- cat intact.txt | grep 'uniprotkb:P80200'|grep 'uniprotkb:Q06124'| wc -l
 > 8
 ```
 In the previous code, we have:
@@ -51,8 +51,8 @@ In the previous code, we have:
 
 In the following code we have done the same analysis, but using the names of the proteins instead of the codes. </br>
 Moreover, we have substituted _PTPN11_ with _MARK2_, which is a protein coding gene.
-```
-cat intact.txt | grep 'uniprotkb:cagA' | grep 'uniprotkb:MARK2' | wc -l   # same as we write P55980
+```diff
+- cat intact.txt | grep 'uniprotkb:cagA' | grep 'uniprotkb:MARK2' | wc -l
 > 4
 ``` 
 In case of infection, _MARK2_ interacts with _cagA_, leading to inhibit kinase activity and junctional and polarity defects. <br></br>

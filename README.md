@@ -1,13 +1,13 @@
 # Project
 ##### Proteomes, Interactomes and Biological Networks 2022/2023
-<img width="1014" height="360" src="https://user-images.githubusercontent.com/106587485/209847519-83c43328-4d87-426f-8e9f-1c7d46d1e4d1.jpg">
+<img width="1014" height="360" src="https://user-images.githubusercontent.com/106587485/209847519-83c43328-4d87-426f-8e9f-1c7d46d1e4d1.jpg"> <br></br>
 
 ## Specification
 The project aims to study ***cagA***, an _Helicobacter pylori_ virulence factor, as a risk factor of gastric cancer. </br>
 We have focused our attention onto:
 1. Analysis of _H. pylori_'s proteome;
 2. Focus on _cagA_'s structure;
-3. Interaction between _cagA_ and ***SHP2*** and its pro-oncogenic action.
+3. Interaction between _cagA_ and ***SHP2*** and its pro-oncogenic action. <br></br>
 
 ## Results
 We have listed here the files regarding the results of our analysis:
@@ -29,7 +29,7 @@ We have listed here the files regarding the results of our analysis:
 * _[map05120.png](https://github.com/samustora/PIBN/blob/main/map05120.png)_ file shows a KEGG pathway representing interactions between genes as _cagPAI_ and _cagA_;
 * _[multi_SHP2.fasta.txt](https://github.com/samustora/PIBN/blob/main/multi_SHP2.fasta.txt)_ file
 * _[sh2_EPIYA_D.cxs](https://github.com/samustora/PIBN/blob/main/sh2_EPIYA_D.cxs)_ chimera file representing _SHP2_ protein;
-* _[tree_SHP2.pdf](https://github.com/samustora/PIBN/blob/main/tree_SHP2.pdf)_ file representing a phylogenetic tree based on the _SHP2_ protein order to see its evolutionary pattern across different animals.
+* _[tree_SHP2.pdf](https://github.com/samustora/PIBN/blob/main/tree_SHP2.pdf)_ file representing a phylogenetic tree based on the _SHP2_ protein order to see its evolutionary pattern across different animals. <br></br>
 
 ## Linux
 We wanted to show, using Linux, how many interactions there are between _cagA_ and _SHP2_ (also known as _PTPN11_). </br>
@@ -53,7 +53,8 @@ In the previous code, we have:
 ```
 cat intact.txt | grep 'uniprotkb:cagA' | grep 'uniprotkb:MARK2' | wc -l   # same as we write P55980
 > 4
-```
+``` 
+... <br></br>
 
 ## Authors
 ***Corona** Gaia, **Storari** Samuele, **Verdesca** Laura Claudia.*

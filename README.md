@@ -7,14 +7,14 @@ The project aims to study ***cagA***, an _Helicobacter pylori_ virulence factor,
 We have focused our attention onto:
 1. Analysis of _H. pylori_'s proteome;
 2. Focus on _cagA_'s structure;
-3. Interaction between _cagA_ and ***SHP2*** and its pro-oncogenic action. <br></br>
+3. Interaction between _cagA_ and ***SHP2*** (also known as _PTPN11_) and its pro-oncogenic action. <br></br>
 
 ## Results
 We have listed here the files regarding the results of our analysis:
 * _[CagA.cxs](https://github.com/samustora/PIBN/blob/main/CagA.cxs)_ file chimera file representing _cagA_ protein;
 * _[UP000000429_85962.fasta](https://github.com/samustora/PIBN/blob/main/UP000000429_85962.fasta)_ is a _FASTA_ file representing a reference proteome of H. pylori (strain ATCC 700392 / 26695);
-* _[cagA_P55980.png](https://github.com/samustora/PIBN/blob/main/cagA_P55980.png)_ file shows ...;
-* _[cagA_P80200.png](https://github.com/samustora/PIBN/blob/main/cagA_P80200.png)_ file shows ...;
+* _[cagA_P55980.png](https://github.com/samustora/PIBN/blob/main/cagA_P55980.png)_ file, obtained from [IntAct](https://www.ebi.ac.uk/intact/search?query=cagA) website, shows some interactions between _cagA_ and other bacterial or human genes, such as with _MARK2_;
+* _[cagA_P80200.png](https://github.com/samustora/PIBN/blob/main/cagA_P80200.png)_ file, obtained from [IntAct](https://www.ebi.ac.uk/intact/search?query=cagA) website, shows the interaction between _cagA_ and _PTPN11_;
 * _[cagA_hp.png](https://github.com/samustora/PIBN/blob/main/cagA_hp.png)_ file shows ...;
 * _[caga_hs.png](https://github.com/samustora/PIBN/blob/main/caga_hs.png)_ file shows ...;
 * _[colored_relative_abundance.png](https://github.com/samustora/PIBN/blob/main/colored_relative_abundance.png)_ file represents the relative abundances of the 703729 amino acids in _H. pylori_:
@@ -32,7 +32,7 @@ We have listed here the files regarding the results of our analysis:
 * _[tree_SHP2.pdf](https://github.com/samustora/PIBN/blob/main/tree_SHP2.pdf)_ file representing a phylogenetic tree based on the _SHP2_ protein order to see its evolutionary pattern across different animals. <br></br>
 
 ## Linux
-We wanted to show, using Linux, how many interactions there are between _cagA_ and _SHP2_ (also known as _PTPN11_). </br>
+We wanted to show, using Linux, how many interactions there are between _cagA_ and _SHP2_. </br>
 On UniProt, the proteins we are dealing with have the following identification codes:
 * _CagA_ in _H. Pylori_ is identified through the UniProt ID P80200;
 * _PTPN11_ in _H. Sapiens_ is identified through the UniProt ID Q06124. <br></br>

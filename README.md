@@ -11,16 +11,21 @@ We have focused our attention onto:
 
 ## Results
 We have listed here the files regarding the results of our analysis:
-* _`CagA.cxs`_ file chimera file representing _cagA_ protein;
-* _`Figure_1.png`_ file represents the relative abundances of the 703729 amino acids in _H. pylori_;
-* _`UP000000429_85962.fasta`_ is a _FASTA_ file representing a reference proteome of H. pylori (strain ATCC 700392 / 26695);
-* _`helicobacter_pylori.py`_ is a _.py_ file that:
+* _[CagA.cxs](https://github.com/samustora/PIBN/blob/main/CagA.cxs)_ file chimera file representing _cagA_ protein;
+* _[Figure_1.png](https://github.com/samustora/PIBN/blob/main/Figure_1.png)_ file represents the relative abundances of the 703729 amino acids in _H. pylori_;
+* _[UP000000429_85962.fasta](https://github.com/samustora/PIBN/blob/main/UP000000429_85962.fasta)_ is a _FASTA_ file representing a reference proteome of H. pylori (strain ATCC 700392 / 26695);
+* _[cagA_P55980.png](https://github.com/samustora/PIBN/blob/main/cagA_P55980.png)_
+* _[cagA_P80200.png](https://github.com/samustora/PIBN/blob/main/cagA_P80200.png)_
+* _[cagA_hp.png](https://github.com/samustora/PIBN/blob/main/cagA_hp.png)_
+* _[caga_hs.png](https://github.com/samustora/PIBN/blob/main/caga_hs.png)_
+* _[helicobacter_pylori.py](https://github.com/samustora/PIBN/blob/main/helicobacter_pylori.py)_ is a _.py_ file that:
   * Analyzes sequence frequency;
   * Defines the residues;
   * Gets the residues relative abundances.
-* _`map05120.png`_ file shows a KEGG pathway representing interactions between genes as _cagPAI_ and _cagA_;
-* _`sh2_EPIYA_D.cxs`_ chimera file representing _SHP2_ protein;
-* _`tree_SHP2.pdf`_ file representing a phylogenetic tree based on the _SHP2_ protein order to see its evolutionary pattern across different animals.
+* _[map05120.png](https://github.com/samustora/PIBN/blob/main/map05120.png)_ file shows a KEGG pathway representing interactions between genes as _cagPAI_ and _cagA_;
+* _[multi_SHP2.fasta.txt](https://github.com/samustora/PIBN/blob/main/multi_SHP2.fasta.txt)_ file
+* _[sh2_EPIYA_D.cxs](https://github.com/samustora/PIBN/blob/main/sh2_EPIYA_D.cxs)_ chimera file representing _SHP2_ protein;
+* _[tree_SHP2.pdf](https://github.com/samustora/PIBN/blob/main/tree_SHP2.pdf)_ file representing a phylogenetic tree based on the _SHP2_ protein order to see its evolutionary pattern across different animals.
 
 ## Authors
 ***Corona** Gaia, **Storari** Samuele, **Verdesca** Laura Claudia.*

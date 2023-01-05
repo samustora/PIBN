@@ -49,12 +49,13 @@ In the previous code, we have:
 2. Unzipped the _intact.zip_ file, obtaining _intact.txt_ file;
 3. Opened the _intact.txt_ file and looked for interactions between _cagA_ and _PTPN11_. <br></br>
 
-
+In the following code we have done the same analysis, but using the names of the proteins instead of the codes. </br>
+Moreover, we have substituted _PTPN11_ with _MARK2_, which is a protein coding gene.
 ```
 cat intact.txt | grep 'uniprotkb:cagA' | grep 'uniprotkb:MARK2' | wc -l   # same as we write P55980
 > 4
 ``` 
-... <br></br>
+In case of infection, _MARK2_ interacts with _cagA_, leading to inhibit kinase activity and junctional and polarity defects. <br></br>
 
 ## Authors
 ***Corona** Gaia, **Storari** Samuele, **Verdesca** Laura Claudia.*

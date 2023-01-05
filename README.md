@@ -31,5 +31,18 @@ We have listed here the files regarding the results of our analysis:
 * _[sh2_EPIYA_D.cxs](https://github.com/samustora/PIBN/blob/main/sh2_EPIYA_D.cxs)_ chimera file representing _SHP2_ protein;
 * _[tree_SHP2.pdf](https://github.com/samustora/PIBN/blob/main/tree_SHP2.pdf)_ file representing a phylogenetic tree based on the _SHP2_ protein order to see its evolutionary pattern across different animals.
 
+## Linux
+```
+wget ftp://ftp.ebi.ac.uk/pub/databases/intact/current/psimitab/intact.zip 
+unzip intact.zip
+cat intact.txt | grep 'uniprotkb:P80200'|grep 'uniprotkb:Q06124'| wc -l
+> 8
+```
+...
+```
+cat intact.txt | grep 'uniprotkb:cagA' | grep 'uniprotkb:MARK2' | wc -l # same as we weite P55980
+> 4
+```
+
 ## Authors
 ***Corona** Gaia, **Storari** Samuele, **Verdesca** Laura Claudia.*

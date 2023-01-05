@@ -34,19 +34,24 @@ We have listed here the files regarding the results of our analysis:
 ## Linux
 We wanted to show, using Linux, how many interactions there are between _cagA_ and _SHP2_ (also known as _PTPN11_). </br>
 On UniProt, the proteins we are dealing with have the following identification codes:
-* _CagA_ in H. Pylori is identified through the UniProt ID P80200;
-* _PTPN11_ in H. Sapiens is identified through the UniProt ID Q06124;
+* _CagA_ in _H. Pylori_ is identified through the UniProt ID P80200;
+* _PTPN11_ in _H. Sapiens_ is identified through the UniProt ID Q06124. <br></br>
 
-The interaction between cagA and PTPN11 can be seen by dealing with the IntAct database that contains the interactome, through bash commands.
+The interaction between _cagA_ and _PTPN11_ can be seen by dealing with the IntAct database that contains the interactome, through bash commands:
 ```
 wget ftp://ftp.ebi.ac.uk/pub/databases/intact/current/psimitab/intact.zip 
 unzip intact.zip
 cat intact.txt | grep 'uniprotkb:P80200'|grep 'uniprotkb:Q06124'| wc -l
 > 8
 ```
-...
+In the previous code, we have:
+1. Downloaded the IntAct _.zip_ file which contains all the possible interactions;
+2. Unzipped the _intact.zip_ file, obtaining _intact.txt_ file;
+3. Opened the _intact.txt_ file and looked for interactions between _cagA_ and _PTPN11_. <br></br>
+
+
 ```
-cat intact.txt | grep 'uniprotkb:cagA' | grep 'uniprotkb:MARK2' | wc -l # same as we write P55980
+cat intact.txt | grep 'uniprotkb:cagA' | grep 'uniprotkb:MARK2' | wc -l   # same as we write P55980
 > 4
 ```
 

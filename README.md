@@ -11,7 +11,7 @@ We have focused our attention onto:
 
 ## Results
 We have listed here the files regarding the results of our analysis:
-* _[1_coronastorariverdesca_pibn2022.pdf]_() is the .PDF file representing our report;
+* _[1_corona.storari.verdesca_pibn2022.pdf](https://github.com/samustora/PIBN/blob/main/1_corona.storari.verdesca_pibn2022.pdf)_ is the .PDF file representing our report;
 * _[CagA.cxs](https://github.com/samustora/PIBN/blob/main/CagA.cxs)_ file chimera file representing _cagA_ protein;
 * _[UP000000429_85962.fasta](https://github.com/samustora/PIBN/blob/main/UP000000429_85962.fasta)_ is a _FASTA_ file representing a reference proteome of _H. pylori_ (strain ATCC 700392 / 26695);
 * _[cagA_P55980.png](https://github.com/samustora/PIBN/blob/main/cagA_P55980.png)_ file, obtained from [IntAct](https://www.ebi.ac.uk/intact/search?query=cagA) website, shows some interactions between _cagA_ and other bacterial or human genes, such as with _MARK2_;

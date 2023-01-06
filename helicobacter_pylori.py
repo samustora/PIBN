@@ -13,6 +13,7 @@ def number_of_seq(myfile, n_of_seq):
 
 print(number_of_seq(myfile, n_of_seq))
 
+
 # how many amino acids:
 def amino_acids(myfile, res_count):
     for line in myfile:
@@ -62,8 +63,6 @@ for el in res_list:
         colors.append('blue')
     elif el in charged:
         colors.append('orange')
-    else:
-        colors.append('beige')
 
 plt.title('Relative abundance of residues in the Helicobacter Pylori Proteome')
 plt.bar(res_list, freq_list, color=colors)

@@ -46,6 +46,7 @@ freq_list = []
 for values in av_dict.values():
     freq_list.append(values)
 
+# to color the graph based on the physicochemical properties of the residues
 non_polar = ['G', 'A', 'V', 'P', 'L', 'I', 'M'] # gray
 aromatic = ['F', 'W', 'Y'] # yellow
 polar = ['S', 'T', 'C', 'N', 'Q', 'H'] # blue

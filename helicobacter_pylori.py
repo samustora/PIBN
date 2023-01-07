@@ -13,7 +13,7 @@ def number_of_seq(myfile, n_of_seq):
 
 print(number_of_seq(myfile, n_of_seq))
 
-# to check how many sequences are from SwissProt and how many from Tremble:
+# to check how many sequences are from SwissProt and how many from TrEMBL:
 sp_count = 0
 tr_count= 0
 for line in myfile:
@@ -21,7 +21,7 @@ for line in myfile:
         sp_count += 1
     elif '>tr' in line: # from Tremble
         tr_count += 1
-print(f"The number of sequences coming from SwissProt is: {sp_count} and the number of sequences coming from Tremble is: {tr_count}.")
+print(f"The number of sequences coming from SwissProt is: {sp_count} and the number of sequences coming from TrEMBL is: {tr_count}.")
 
 # how many amino acids:
 def amino_acids(myfile, res_count):
